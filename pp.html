@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <link rel="styleheets" href="./public/css/styles.css">
+  <link rel="stylesheet" href="public/css/styles.css">
 </head>
 
-<body> 
-  <div class="background">
-    <video id="bckgrnd" autoplay loop muted poster="/img/background.jpg">
-      <source src="/media/background.mp4" type="video/mp4">
-    </video>
-</div>
+<body class="bg">
+  <img id="bckgrnd" src="/img/background.jpg">
+
+  <div>
+    <div class="overlay">
+      <div class="topsec">
+       <p>top section</p>
+      </div>
+      <div class="heading">
+        heading
+      </div>
+      <div class="displaybox">
+        <div class="btn">
+          <button id="add" type="button">add</button>
+          <button id="subtract" type="button">subtract</button>
+        </div>
+        <div class="count">
+          number
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
-
-

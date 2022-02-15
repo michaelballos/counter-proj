@@ -1,12 +1,36 @@
 
-#bckgrnd {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
+.overlay { 
+  z-index: 1;
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: center;
 }
+
+.bg {
+  background-image: url(/home/michael/Documents/counter-proj/img/background.jpg);
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100 vh;
+}
+
+.topsec {
+  border-style: solid;
+  border-color: green;
+  border-radius: 3px;
+}
+
+.heading {
+  border-style: solid; border-color: black;
+  border-radius: 5px;
+}
+
+.displaybox {
+  border-style: solid; border-color: black;
+  border-radius: 5px;
+}
+
+
