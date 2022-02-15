@@ -1,1 +1,2 @@
 # counter-proj
+A button counter task assigned from Isaac Spiegel's customized accelerated HTML curriculum to introuce Github repositories and guide my study of web developement. The assignment implements the functionality of buttons as they correlate to the value of the data displayed on screen. The overall goal is to apply basic knowledge of HTML with CSS classes and flexboxes to create an aesthetic value counter while minimizing the amount of duplicated code used.
