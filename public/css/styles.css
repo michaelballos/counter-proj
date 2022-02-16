@@ -2,6 +2,7 @@ html {
   width: 100vw;
   height: 100vh;
 }
+
 .bg {
   background-image: url(/home/michael/Documents/counter-proj/img/background.jpg);
   overflow:-moz-hidden-unscrollable;
@@ -50,35 +51,12 @@ html {
   align-items: center;
 }
 
-.heading {
-  width: 100vw;
-  height: 50px;
-  margin: 0;
-  padding-bottom: 0;
-  display: flex;
-  flex-direction: column;
-  z-index: 1;
-}
-
-#head {
-  width: 100vw;
-  font-weight: 900;
-  color: white;
-  font-family: Raleway;
-  font-size: 30pt;
-  font-weight: 800;
-  text-shadow: 2px 2px 2px black;
-  margin-top: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
 
 .displaybox {
   width: 800px;
   height: 500px;
   border-style: outset;
-  box-shadow: 3px 4px 5px;
+  box-shadow: 5px 5px 5px;
   background: rgba(255,255,255, 0.05);
   border-radius: 20px;
   display: flex;
@@ -98,7 +76,7 @@ html {
 }
 
 #num {
-  height: 80px;
+  height: 50px;
   color: white;
   font-family: Roboto;
   text-shadow: 5px 10px 6px black;
@@ -106,6 +84,31 @@ html {
   font-size: 125pt;
   display: flex;
   flex-direction: row;
+}
+
+.heading {
+  width: 100vw;
+  height: 70px;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+#head {
+  width: 100vw;
+  font-weight: 900;
+  color: white;
+  font-family: Raleway;
+  font-size: 30pt;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .btn {
