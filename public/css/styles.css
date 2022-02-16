@@ -1,36 +1,126 @@
-
-.overlay { 
-  z-index: 1;
-  background-color: wheat;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  justify-content: center;
+html {
+  width: 100vw;
+  height: 100vh;
 }
-
 .bg {
   background-image: url(/home/michael/Documents/counter-proj/img/background.jpg);
+  overflow:-moz-hidden-unscrollable;
   z-index: -1;
+}
+
+.container { 
+  width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100 vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
 }
 
 .topsec {
-  border-style: solid;
-  border-color: green;
-  border-radius: 3px;
+  width: 100vw;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+#title {
+  margin-top: 0;
+  padding: 0;
+  color: white;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 65pt;
+  text-shadow: 3px 6px 2px black;
+  z-index: 1;
+}
+
+.chunk {
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .heading {
-  border-style: solid; border-color: black;
-  border-radius: 5px;
+  width: 100vw;
+  height: 50px;
+  margin: 0;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+#head {
+  width: 100vw;
+  font-weight: 900;
+  color: white;
+  font-family: Raleway;
+  font-size: 30pt;
+  font-weight: 800;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .displaybox {
-  border-style: solid; border-color: black;
-  border-radius: 5px;
+  width: 800px;
+  height: 500px;
+  border-style: outset;
+  box-shadow: 3px 4px 5px;
+  background: rgba(255,255,255, 0.05);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
 }
 
+.counter {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
 
+#num {
+  height: 80px;
+  color: white;
+  font-family: Roboto;
+  text-shadow: 5px 10px 6px black;
+  font-style: normal;
+  font-size: 125pt;
+  display: flex;
+  flex-direction: row;
+}
+
+.btn {
+  width: 650px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+button {
+  width: 200px;
+  height: 90px;
+  margin: 0;
+  padding-bottom: 0;
+}
