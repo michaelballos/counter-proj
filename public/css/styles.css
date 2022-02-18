@@ -3,9 +3,9 @@ html {
   height: 100vh;
 }
 
-.bg {
-  background-image: url(/home/michael/Documents/counter-proj/img/background.jpg);
-  overflow:-moz-hidden-unscrollable;
+body {
+  background-image: url(/img/background.jpg);
+  overflow: -moz-hidden-unscrollable;
   z-index: -1;
 }
 
@@ -55,14 +55,13 @@ html {
   align-items: center;
 }
 
-
 .displaybox {
   width: 800px;
   height: 500px;
   border-style: outset; 
   border-color: rgb(0, 0, 0);
   box-shadow: 5px 5px 5px;
-  background: rgba(27, 0, 126, 0.25);
+  background: rgba(24, 0, 112, 0.25);
   border-radius: 35px;
   display: flex;
   flex-direction: column;
@@ -107,7 +106,8 @@ html {
   font-family: Raleway;
   font-size: 30pt;
   font-weight: 800;
-  text-shadow: 2px 2px 2px black;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
   margin-top: 0;
   padding: 0;
   display: flex;
@@ -119,9 +119,7 @@ html {
   width: 650px;
   height: 100px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
 }
 
