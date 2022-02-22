@@ -12,9 +12,10 @@
   rel="stylesheet">
   <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9"
   rel="stylesheet">
+  <link href="./public/img/external-content.duckduckgo.com.gif" rel="icon" type="image/x-icon">
 </head>
 
-<body>
+<body id="bg"> 
   <div class="container">
     <div class="topsec">
       <p id="title">Button Counter</p>
@@ -22,20 +23,20 @@
     <div class="chunk">
       <div class="displaybox">
         <div class="counter">
-          <span type="text" id="num">0</span>
+          <p id="num">0</p>
         </div>
         <div class="heading">
           <p id="head">Current Count</p>
         </div>
         <div class="btn">
           <button
-            onClick="sub();"
-            id="sub">
+            onClick="sub()"
+            id="decrement">
             Subtract
           </button>
           <button
-            onClick="add();"
-            id="add">
+            onclick="add()"
+            id="increment">
             Add
           </button>
       </div>
@@ -43,6 +44,6 @@
     </div>
    </div>
 
-<script>src="/src/index.js"</script>
+  <script src='./public/src/index.js'></script>
 </body>
 </html>
