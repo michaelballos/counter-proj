@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="public/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap"
+  rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com"
+  crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+  rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9"
+  rel="stylesheet">
+  <link href="./public/img/external-content.duckduckgo.com.gif" rel="icon" type="image/x-icon">
+</head>
+
+<body id="bg"> 
+  <div class="container">
+    <div class="topsec">
+      <p id="title">Button Counter</p>
+    </div>
+    <div class="chunk">
+      <div class="displaybox">
+        <div class="counter">
+          <p id="num">0</p>
+        </div>
+        <div class="heading">
+          <p id="head">Current Count</p>
+        </div>
+        <div class="btn">
+          <button
+            onClick="sub()"
+            id="decrement">
+            Subtract
+          </button>
+          <button
+            onclick="add()"
+            id="increment">
+            Add
+          </button>
+      </div>
+    </div>
+    </div>
+   </div>
+
+  <script src='./public/src/index.js'></script>
+</body>
+</html>
