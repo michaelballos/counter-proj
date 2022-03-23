@@ -1,0 +1,152 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  overflow: -moz-hidden-unscrollable;
+  z-index: -1;
+}
+
+.container { 
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.topsec {
+  width: 100vw;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+#title {
+  margin-top: 0;
+  padding: 0;
+  color: white;
+  font-family: Raleway;
+  font-style: normal;
+  font-size: 65pt;
+  text-shadow: 3px 6px 2px black;
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.chunk {
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.displaybox {
+  width: 800px;
+  height: 500px;
+  border-style: outset; 
+  border-color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px;
+  background: rgba(24, 0, 112, 0.25);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.counter {
+  width: 800px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#num {
+  height: 50px;
+  color: white;
+  font-family: Roboto;
+  text-shadow: 5px 10px 6px black;
+  font-style: normal;
+  font-size: 150pt;
+  display: flex;
+  flex-direction: row;
+}
+
+.heading {
+  width: 100vw;
+  height: 70px;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+#head {
+  width: 100vw;
+  font-weight: 900;
+  font-family: Raleway;
+  font-size: 30pt;
+  font-weight: 800;
+  color: white;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.btn {
+  width: 650px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  width: 200px;
+  height: 90px;
+  margin: 0;
+  color:rgb(255, 255, 255);
+  font-family: Helvetica Neue;
+  font-size: 15pt;
+  font-weight: 200;
+  border-radius: 25px;
+  background-color: rgba(0, 255, 170, 0.25);
+  box-shadow: 0px 03px rgb(65, 64, 64);
+}
+
+button:hover {
+cursor: pointer;
+background: red;
+}
+
+button :active {
+  background-color: rgba(0, 255, 170, 0.25);
+  box-shadow: 0px 5px;
+  transform:translateY(10px);
+}
+
+
+
+
